@@ -1,0 +1,48 @@
+{
+  "filters":[
+    "spicy",
+    "meat",
+    "vegan"
+  ],
+  "burgers":[
+    {
+      "id":"burger1",
+      "name":"burger spicy",
+      "description":"spicy!spicy!spicy!",
+      "image":"images/menu/burger1.jpg",
+      "price":"100 UAH",
+      "filter": "spicy"
+    },    {
+      "id":"burger1-1",
+      "name":"burger spicy spicy",
+      "description":"spicy!spicy!spicy!spicy!",
+      "image":"images/menu/burger1.jpg",
+      "price":"100 UAH",
+      "filter": "spicy"
+    },
+    {
+      "id":"burger2",
+      "name":"burger meat",
+      "description":"meat!meat!meat!",
+      "image":"images/menu/burger2.jpg",
+      "price":"110 UAH",
+      "filter": "meat"
+    },
+    {
+      "id":"burger2-1",
+      "name":"burger meatmeat",
+      "description":"meat!meat!meat!meat!",
+      "image":"images/menu/burger2.jpg",
+      "price":"110 UAH",
+      "filter": "meat"
+    },
+    {
+      "id":"burger3",
+      "name":"burger vegan",
+      "description":"vegan!vegan!vegan!",
+      "image":"images/menu/burger3.jpg",
+      "price":"150 UAH",
+      "filter": "vegan"
+    }
+  ]
+}

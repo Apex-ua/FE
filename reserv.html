@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="css/reserv-style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navBar" id="menu">
+            <ul>
+                <li><a href="reserv.html">reservations</a></li>
+                <li><a href="menu.html">menu</a>
+                    <ul>
+                        <li><a href="#">BURGERS</a></li>
+                        <li><a href="#">SANDWICHES</a></li>
+                        <li><a href="#">SALADS</a></li>
+                        <li><a href="#">BEER</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">events</a></li>
+                <li><a href="#">story</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-wrap">
+        <div class="selectDateTime">
+            <input id="date" type="date" value="2019-05-01">
+            <select name="selectTimeSlot" class="select-time-slot" id="selectTimeSlot">
+                <option value="0">10:00</option>
+                <option value="1">11:00</option>
+                <option value="2">12:00</option>
+                <option value="3">13:00</option>
+                <option value="4">14:00</option>
+                <option value="5">15:00</option>
+                <option value="6">16:00</option>
+                <option value="7">17:00</option>
+                <option value="8">18:00</option>
+                <option value="9">19:00</option>
+                <option value="10">20:00</option>
+                <option value="11">21:00</option>
+                <option value="12">22:00</option>
+            </select>
+            <input type="button" id="show" value="Check" onclick="getDateTime()">
+        </div>
+        <div id="root"></div>
+    </div>
+    <script src="js/reserv-script.js"></script>
+</body>
+</html>

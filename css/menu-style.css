@@ -1,8 +1,8 @@
-/*COLORS
-Navy	#0C1C2F
-
-
-*/
+.content-wrap {
+  max-width: 950px;
+  margin: 20px auto;
+  overflow: hidden;
+}
 
 body {
     background-color: #0C1C2F;
@@ -27,9 +27,6 @@ header{
 /*    float: left;*/
     text-align: center;
 }
-
-
-
 
 /*-------------------------NAVIGATION MENU*/
 /*top menu style*/
@@ -88,63 +85,24 @@ header{
 }
 
 
-/*     SLIDER
------------------*/
-#cssSlider {
-    display: block;
-    background: #C4B170;
-    margin: 20px auto;
-    width: 700px;
-    height: 340px;
-    overflow: hidden;
-    border: 3px solid #C4B170;
-
-}
-
-#sliderImages {
-    width : 3500px;
-    height: 340px;
-    overflow: hidden;
-
-    /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
-    animation: slide 16s infinite;
-}
-
-#sliderImages img {
-    float: left;
-}
-
-
-@keyframes slide{
-    0%{margin-left: 0px;}
-    17%{margin-left: 0px;}
-    20%{margin-left: -700px;}
-    37%{margin-left: -700px;}
-    40%{margin-left: -1400px;}
-    57%{margin-left: -1400px;}
-    100%{margin-left: 0px;}
-}
-
-
-
-
-
-/*MENU*/
 img.card-image{
-    width: 100px;
+    width: 300px;
 
 }
 div.card{
-    background: coral;
+    background: #0C1C2F;
     display: inline-block;
     text-align: center;
-    width: 180px;
+    width: 32%;
     overflow: hidden;
+    border: 3px solid #C4B170;
+    border-radius: 3px;
+    margin: 3px ;
 }
 
-.content-wrap {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 20px;
-  overflow: hidden;
+div#filtersContainer {
+    margin-bottom: 20px;
+    background: #C4B170;
+    color: #0C1C2F;
+    border-radius: 3px;
 }

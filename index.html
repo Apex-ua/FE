@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--lang="uk-UA"-->
-<!--lang="en-UA"-->
-<!--для вказування Української мови в Україні - lang="uk-UA"-->
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,46 +7,38 @@
 </head>
 <body>
 <header>
-    <div>
-        <a href="#" class="logo">Restaurant name</a>
+    <div class="logo-container">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
     </div>
-    <nav>
+    <nav class="navBar" id="menu">
         <ul>
-            <li><a href="#">menu</a>
+            <li><a href="reserv.html">reservations</a></li>
+            <li><a href="menu.html">menu</a>
                 <ul>
-                    <li><a href="#">SALADS</a></li>
                     <li><a href="#">BURGERS</a></li>
                     <li><a href="#">SANDWICHES</a></li>
+                    <li><a href="#">SALADS</a></li>
                     <li><a href="#">BEER</a></li>
                 </ul>
             </li>
-            <li><a href="#">about</a></li>
             <li><a href="#">events</a></li>
-            <li><a href="#">reservations</a></li>
-            <li><a href="#">contacts</a></li>
+            <li><a href="#">story</a></li>
+            <li><a href="#">contact</a></li>
         </ul>
     </nav>
-    <label>Search<input type="text"></label>
-    <section class="slider">
-        <p>- Верхний блок - слайдер изображений (или видео) основное и меню сайта. Пункты меню расположены горизонтально с отступом, разделяясь вертикальной чертой.</p>
-    </section>
+    <div id="cssSlider">
+        <div id="sliderImages">
+            <img id="si_1" src="images/slider/slider-1.jpg" alt="Slide 1" />
+            <img id="si_2" src="images/slider/slider-2.jpg" alt="Slide 2" />
+            <img id="si_3" src="images/slider/slider-3.jpg" alt="Slide 3" />
+            <img id="si_3" src="images/slider/slider-3.jpg" alt="Slide 4" />
+            <img id="si_3" src="images/slider/slider-3.jpg" alt="Slide 5" />
+        </div>
+    </div>
 </header>
 
-
-
-<section class="task">
-    <p>Ресторан.
-Просмотр информации о ресторане.
-Просмотр меню, событий.
-Интерактивное бронирование столика
-(с возможностью просмотра забронированных столиков) – пользователь на плане ресторана видит забронированные столики, и может сделать бронь (при этом обязательно учитывать время брони).</p>
-</section>
-
-
-<section>
-    <h2>Головна сторінка → Розділ → Підрозділ</h2>
-    <p>- Основной блок - наверху находятся breadcrumbs (“хлебные крошки”) – если есть необходимость (предпочтительно, но не обязательно). Под ними расположен блок с контентом. </p>
-</section>
 
 </body>
 </html>

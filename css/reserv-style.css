@@ -1,8 +1,8 @@
-/*COLORS
-Navy	#0C1C2F
-
-
-*/
+.content-wrap {
+  max-width: 950px;
+  margin: 20px auto;
+  overflow: hidden;
+}
 
 body {
     background-color: #0C1C2F;
@@ -27,9 +27,6 @@ header{
 /*    float: left;*/
     text-align: center;
 }
-
-
-
 
 /*-------------------------NAVIGATION MENU*/
 /*top menu style*/
@@ -88,63 +85,46 @@ header{
 }
 
 
-/*     SLIDER
------------------*/
-#cssSlider {
-    display: block;
-    background: #C4B170;
-    margin: 20px auto;
-    width: 700px;
-    height: 340px;
-    overflow: hidden;
-    border: 3px solid #C4B170;
 
-}
-
-#sliderImages {
-    width : 3500px;
-    height: 340px;
-    overflow: hidden;
-
-    /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
-    animation: slide 16s infinite;
-}
-
-#sliderImages img {
-    float: left;
-}
-
-
-@keyframes slide{
-    0%{margin-left: 0px;}
-    17%{margin-left: 0px;}
-    20%{margin-left: -700px;}
-    37%{margin-left: -700px;}
-    40%{margin-left: -1400px;}
-    57%{margin-left: -1400px;}
-    100%{margin-left: 0px;}
-}
-
-
-
-
-
-/*MENU*/
-img.card-image{
-    width: 100px;
-
-}
-div.card{
-    background: coral;
+.table {
+    width: 110px;
+    height: 110px;
     display: inline-block;
-    text-align: center;
-    width: 180px;
-    overflow: hidden;
+    background-image: url("/images/table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.content-wrap {
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 20px;
-  overflow: hidden;
+.table > span {
+    max-width: 90px;
+}
+
+
+.space {
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+    background-image: url("/images/floor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+body {
+    background: 0C1C2F;
+    color: white;
+}
+
+div.selectDateTime {
+    margin: 20px;
+}
+
+.free{
+    background-color: green;
+    cursor: pointer;
+}
+.reserved{
+    background-color: darkred;
 }
